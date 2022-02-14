@@ -1,0 +1,158 @@
+
+#containerprincipal{
+    display: flex;
+    flex-direction: column;
+}
+
+#containerarriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    background-color:wheat;
+    margin-bottom: 20px;
+}
+
+#foto{
+    border: 50px;
+    border-radius: 200px;
+    height: 200px;
+    width: 200px;
+    margin: 25px;
+}
+
+#nombre{
+    color: white;
+    background-color: black;
+    font-size: larger;
+    height: 40px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#containerdescripcion{
+    background-color: rgb(182, 182, 182);
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.descripcion{
+    margin: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#containerderecha{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+#containerdatospersonales{
+    background-color:white;
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    padding: 10px;
+}
+
+#container1{
+    margin: 20px;
+    max-width: fit-content;
+    align-self:flex-start;
+    margin-bottom: 50px;
+}
+
+#containertitulo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.datospersonales{
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+#container2{
+    margin: 20px;
+    max-width: fit-content;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+#container{
+    background-color: white;
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.listas{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding-right: 20px;
+}
+
+#container3{
+    margin: 20px;
+    max-width: fit-content;
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+#container4{
+    margin: 20px;
+    max-width: fit-content;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+#container5{
+    margin: 20px;
+    max-width: fit-content;
+    align-self: flex-start;
+    margin-bottom: 50px;
+}
+
+#container6{
+    margin: 20px;
+    max-width: fit-content;
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+#fotolinkedin{
+    border: 50px;
+    height: 50px;
+    width: 50px;
+    margin: 25px;
+}
+
+#fotogithub{
+    border: 50px;
+    height: 50px;
+    width: 90px;
+    margin: 5px;
+    margin-left: 7px;
+    margin-bottom: 25px;
+}
+
+#containerrrss{
+    background-color: white;
+    border-style:solid;
+    display: flex;
+    flex-direction: column;
+    padding-right: 30px;
+}
+
